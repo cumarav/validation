@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: "httptrace,diag"
+
+logging:
+  level:
+    ROOT: INFO
+    org.apache.http: TRACE
